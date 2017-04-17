@@ -29,4 +29,5 @@ const styles = {
     }
 };
 
-export default Header;
+// export default Header;
+export { Header };
