@@ -18,8 +18,8 @@ class LoginForm extends Component{
                     .catch(() => {
                         console.log('hello');
                         this.setState({ error: 'Authentication Error'})
-                    })
-            })
+                    });
+            });
     }
 
     renderButton() {
